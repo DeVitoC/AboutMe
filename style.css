@@ -1,0 +1,35 @@
+.intro {
+  background-color: aqua;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 2fr;
+}
+
+.intro-h1 {
+  font-family: caveat, sans-serif;
+  color: yellow;
+  font-size: 100px;
+}
+
+.intro-h2 {
+  font-family: arvo, serif;
+}
+
+.horizontal-spacer {
+  grid-column: span 3;
+}
+
+.center-cropped {
+  object-fit: cover;
+  object-position: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
